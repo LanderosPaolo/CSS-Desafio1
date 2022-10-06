@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Comienzo de agrupacion de contactos en el lado izquierdo de la pantalla*/
+
+/* Contenedor del boton */
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+.chat a {
+    text-decoration: none;
+    background-color: #a491d2;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px;
+}
+
+.chat a:hover {
+    opacity: 80%;
+}
+
+.user {
+    display: flex;
+    padding: 7px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-user {
+    display: flex;
+}
+/* Se ocupan px, no es responsiva la pagina, se rompe el codigo en tamaños pequeños */
+.user img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-height: 100vh;
+}
+
+.contacto {
+    display: flex;
+    padding: 7px;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.contacto img {
+    border-radius: 50%;
+    width: 86.7px;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.icons i {
+    font-size: 25px;
+    padding: 4px;
+}
+
+/* comienzo de agrupacion de contenedores en el lado derecho de la pantalla */
+.message div img {
+    width: 350px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ebe4;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.message h2 {
+    text-align: center;
+}
